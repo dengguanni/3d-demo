@@ -1,0 +1,26 @@
+{
+  "name": "practiceProject",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "@tweenjs/tween.js": "^18.6.4",
+    "@vitejs/plugin-vue": "^3.0.1",
+    "awe-dnd": "^0.3.4",
+    "axios": "^0.27.2",
+    "less": "^4.1.3",
+    "mitt": "^3.0.0",
+    "node-sass": "^7.0.1",
+    "three": "^0.143.0",  
+    "vue": "^3.0.4",
+    "vue-draggable-resizable": "^2.3.0",
+    "vue-router": "^4.0.13"
+  },
+  "devDependencies": {
+    "@types/node": "^18.6.4",
+    "@vue/compiler-sfc": "^3.0.4",
+    "vite": "^3.0.2"
+  }
+}

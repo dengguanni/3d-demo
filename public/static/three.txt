@@ -1,0 +1,40 @@
+urlP   // 路径
+uniqueId  //唯一标识
+parent  // 父级 uniqueId
+
+urlP 不为空，则该对象为外部模型 因此拥有children
+
+position // 位置
+rotation // 旋转
+scale // 缩放
+type // three对象
+background // 背景色
+receiveShadow 、castShadow // 阴影
+autoUpdate // 更新
+animations // 动画
+
+//相机参数
+Camera 
+fov // 摄像机视锥体垂直视野角度
+aspect // 摄像机视锥体长宽比
+near // 摄像机视锥体近端面
+far // 摄像机视锥体远端面
+
+//光线
+color // 十六进制的颜色值 默认为 0xffffff (white).
+intensity // 光的强度. 默认为 1.
+
+
+
+
+
+
+3d场景解析
+1.自定义场景解析类
+	定义场景数据集方法，解析场景导出方法，导入场景解析方法
+	穿透处理导出数据集颜色（因导入场景的数据集颜色格式有问题）
+2.完善颜色处理类
+	定义穿透对象修改内置color元素
+3.封装数据树成专属文件导出，后缀为 .xhl  (如: xxxx.xhl ) 
+4.解析导入场景 --- 完善中
+
